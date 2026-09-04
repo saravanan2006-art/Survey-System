@@ -9,7 +9,7 @@ const {
 } = require("../Validators/surveyValidator");
 
 const validateSurveyForPublish = require(
-  "../validators/publishSurveyValidator"
+  "../Validators/publishSurveyValidator"
 );
 
 const updateSurvey = async (req, res) => {
