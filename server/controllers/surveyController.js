@@ -6,7 +6,7 @@ const Notification = require("../models/Notification");
 const {
   createSurveySchema,
   updateSurveySchema,
-} = require("../validators/surveyValidator");
+} = require("../Validators/surveyValidator");
 
 const validateSurveyForPublish = require(
   "../validators/publishSurveyValidator"
